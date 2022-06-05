@@ -1,0 +1,23 @@
+{
+    "name": "symfony/symfony",
+    "description": "Symfony takeover",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Symfony\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Szymon Sadło",
+            "email": "szymon.sadlo@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "psr/log": "3.0.0"
+    },
+    "require-dev": {
+        
+    }
+}
